@@ -16,7 +16,7 @@ $(document).ready(function(){
 	});
 
 	$('.choco').click(function(){
-		$('.cho-count').html(values("choco",parseInt(Cookies.get("choco")))  + " eaten");
+		$('.choco-count').html(values("choco",parseInt(Cookies.get("choco")))  + " eaten");
 	});
 
 	$('.lemon').click(function(){
